@@ -111,3 +111,81 @@
 
 </body>
 </html>
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+
+main {
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+main h1 {
+    color:rebeccapurple;
+    text-decoration: underline;
+}
+
+main h2 {
+    margin: 30px 0;
+    color: rebeccapurple;
+    
+}
+
+table {
+    margin: 0 auto;
+    width: 900px;
+    border: 1.5px solid fuchsia;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    display: table;
+}
+
+thead {
+    background-color: plum;
+}
+
+thead th {
+    color: white;
+}
+
+tbody {
+    margin: 0 auto;
+    width: 900px;
+    
+}
+
+th {
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.code {
+    font-family: monospace;
+    color: rosybrown;
+    font-weight: bold;
+}
+
+td {
+    text-align: center;
+    border-top: 1px solid rebeccapurple;
+    background-color: bisque;
+    display: table-cell;
+    vertical-align: inherit;
+    padding: 2px 0;
+}
+
+section {
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: rebeccapurple;
+}
